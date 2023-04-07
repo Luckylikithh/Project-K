@@ -1,0 +1,56 @@
+body ,h1{
+    text-align: center;
+    font-family: cursive;
+}
+a{
+    margin-right: 50px;
+    text-decoration: none;
+    
+}
+#size{
+    color: blueviolet;
+}
+header{
+    background-color: antiquewhite;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.container{
+    box-shadow: 0 10px 10px lightgrey;
+    border: 1px solid rgb(56, 55, 55);
+    margin-top: 15px;
+    width: 500px;
+    margin:auto;
+    
+    
+}
+.wish3{
+    margin-top: 25px;
+}
+.wish4{
+    margin-top: 10px;
+    border: 2px solid beige;
+    margin: auto;
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.photo {
+    max-width: 500px;
+    margin: 20px;
+  }
+  
+  .photo img {
+    width: 500px;
+    height: 400px;
+  }
+  .wish5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+  
+
