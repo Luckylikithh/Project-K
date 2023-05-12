@@ -10,9 +10,7 @@
   <body>
     <header>
       <h1>Post your content and have unlimited fun.....</h1>
-      <a href="./login.html">Login</a>
-      <a href="./register.html">Register</a>
-      <a href="./post.html">Post</a>
+      <a onClick="logout()">Logout</a>
     </header>
     <main>
       <section class="container">
@@ -23,7 +21,7 @@
       </section>
       <form id="post-form">
       <div class="wish3">
-        <input type="text" placeholder="post your content here:">
+        <input type="text" id="post" placeholder="post your content here:">
         <br>
         <br>
         <input type="submit" value="POST">

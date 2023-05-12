@@ -1,9 +1,12 @@
+require('dotenv').config();
 const express = require('express')
 const app = express()
 
 app.use(express.json());
 
 const userRoutes = require('./server/routes/user')
+const postRoutes = require('./server/routes/post')
+
 
 //CORS middleware
 app.use(function(req, res, next) {
@@ -14,6 +17,7 @@ app.use(function(req, res, next) {
 });
 
 app.use('/users', userRoutes)
+app.use('/posts', postRoutes)
 
 
 const PORT = process.env.PORT || 3000;
